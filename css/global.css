@@ -1,0 +1,236 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  font-family: " Raleway ", sans-serif;
+  scroll-behavior: smooth;
+}
+.container header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  padding: 15px 95px;
+}
+.container header nav .header-ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.container header nav .header-ul .header-li {
+  padding: 30px 45px;
+  font-size: 15px;
+  color: #303134;
+}
+.container .sections .homePage {
+  margin-top: 100px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#2af598), to(#08aeea));
+  background-image: linear-gradient(#2af598, #08aeea);
+  width: 100%;
+}
+.container .sections .homePage .homePageWrapper {
+  background-image: url("/images/bg.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center;
+  opacity: 80%;
+}
+.container .sections .homePage .homePageWrapper .priceDiv {
+  margin: 0 auto;
+  position: relative;
+  padding: 115px 580px;
+}
+.container .sections .homePage .homePageWrapper .priceDiv .priceDiv1 {
+  position: absolute;
+  margin-top: -60px;
+  margin-left: 60px;
+}
+.container .sections .homePage .homePageWrapper .priceDiv .priceDiv1 .personPrice {
+  font-size: 21px;
+  color: #006cd1;
+  font-weight: bold;
+}
+.container .sections .homePage .homePageWrapper .discover {
+  padding-left: 95px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.container .sections .homePage .homePageWrapper .discover .header-arrow {
+  width: 33px;
+  height: 33px;
+  background-color: #fff;
+  cursor: pointer;
+}
+.container .sections .homePage .homePageWrapper .discover .header-arrow .fa-solid {
+  margin: 9px;
+}
+.container .sections .homePage .homePageWrapper .discover .homePageText h1 {
+  font-size: 78px;
+  color: #fff;
+  padding-right: 228px;
+  padding-bottom: 40px;
+  padding-left: 288px;
+}
+.container .sections .homePage .homePageWrapper .discover .homePageText .homePage-p {
+  font-size: 18px;
+  color: #fff;
+  padding-bottom: 209px;
+  padding-left: 415px;
+}/*# sourceMappingURL=global.css.map */
