@@ -11,6 +11,20 @@
         right: 0;
         left: 0;
         padding: 15px 95px;
+        .burgerMenu {
+            display: none;
+            .fa-bars-staggered {
+                // @media (max-width: 768px) {
+                //     color: $headerColor;
+                //     display: block;
+                //     font-size: 30px;
+                //     position: absolute;
+                //     top: 40px;
+                //     right: 30px;
+                //     cursor: pointer;
+                // }
+            }
+        }
         nav {
             .header-ul {
                 display: flex;

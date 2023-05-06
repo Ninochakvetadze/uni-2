@@ -48,8 +48,11 @@
                     width="133"
                     height="31"
                 />
+                <div id="burger-menu" class="burgerMenu">
+                    <i class="fa-solid fa-bars-staggered"></i>
+                </div>
                 <nav>
-                    <ul class="header-ul">
+                    <ul id="nav-ul" class="header-ul">
                         <li class="header-li"><a href="#">HOME</a></li>
                         <li class="header-li">
                             <a href="#happyTravelers">ABOUT US</a>
@@ -169,13 +172,6 @@
                             frameborder="0"
                             allowfullscreen
                         ></iframe>
-
-                        <!-- <video width="663" height="314" controls>
-                            <source
-                                src="https://www.youtube.com/watch?v=3t33zXTP0ak"
-                            />
-                            Your browser does not support the video.
-                        </video> -->
                     </div>
                 </div>
 
@@ -470,30 +466,6 @@
             src="https://kit.fontawesome.com/4fb1e1c9df.js"
             crossorigin="anonymous"
         ></script>
-
-        <!-- JavaScriptFunction -->
-        <script>
-            let mybutton = document.getElementById("myBtn");
-
-            window.onscroll = function () {
-                scrollFunction();
-            };
-
-            function scrollFunction() {
-                if (
-                    document.body.scrollTop > 300 ||
-                    document.documentElement.scrollTop > 300
-                ) {
-                    mybutton.style.display = "block";
-                } else {
-                    mybutton.style.display = "none";
-                }
-            }
-
-            function topFunction() {
-                document.body.scrollTop = 0;
-                document.documentElement.scrollTop = 0;
-            }
-        </script>
+        <script src="./js/index.js"></script>
     </body>
 </html>

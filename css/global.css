@@ -163,6 +163,9 @@ a {
   left: 0;
   padding: 15px 95px;
 }
+.container header .burgerMenu {
+  display: none;
+}
 .container header nav .header-ul {
   display: -webkit-box;
   display: -ms-flexbox;
