@@ -21,3 +21,6 @@ function topFunction() {
 }
 
 // BurgerMenu
+
+// const burgerMenu = document.querySelector("#burger-menu");
+// const navUl = document.querySelector("#nav-ul");
