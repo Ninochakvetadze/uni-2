@@ -1,0 +1,32 @@
+@mixin serviceCardsHeader {
+    font-size: 17px;
+    color: $headerColor;
+    padding-top: 20px;
+}
+@mixin serviceCardsText {
+    font-size: 15px;
+    line-height: 20px;
+    color: $textColor;
+    max-width: 270px;
+    padding-top: 8px;
+}
+@mixin badge1 {
+    position: absolute;
+    font-size: 14px;
+    width: 98px;
+    height: 25px;
+    background-color: #fed701;
+    margin-top: -235px;
+    margin-left: 10px;
+    padding: 6px 9px;
+}
+@mixin badge2 {
+    position: absolute;
+    font-size: 14px;
+    width: 67px;
+    height: 25px;
+    background-color: #fed701;
+    margin-top: -235px;
+    margin-left: 10px;
+    padding: 6px 9px;
+}

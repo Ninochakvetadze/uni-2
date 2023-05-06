@@ -88,5 +88,205 @@
                 }
             }
         }
+        .services {
+            margin-top: 74px;
+            padding-left: 97px;
+            display: flex;
+
+            .hotServices {
+                .discover {
+                    padding-bottom: 12px;
+                }
+                .heading1 {
+                    font-size: 25px;
+                    color: $headerColor;
+                }
+                .hotServiceText {
+                    padding-top: 40px;
+                    font-size: 15px;
+                    color: $textColor;
+                    max-width: 60%;
+                }
+            }
+            .serviceCards {
+                display: flex;
+                flex-wrap: wrap;
+                padding-left: 60px;
+                .flightBooking,
+                .hotelBooking,
+                .tripPlanner,
+                .cruiseTour,
+                .fireCamp,
+                .corporateHolidays {
+                    padding-right: 30px;
+                    padding-bottom: 20px;
+                    .card-h2 {
+                        @include serviceCardsHeader;
+                    }
+                    .card-p {
+                        @include serviceCardsText;
+                    }
+                }
+            }
+        }
+        .videoTour {
+            background-image: url(/images/bg5.png);
+            background-size: 100%;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: scroll;
+            margin-top: 50px;
+            height: 500px;
+            .videoTourDiscover {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                .videoTour-p {
+                    margin-top: 65px;
+                    font-size: 15px;
+                    color: #fff;
+                    padding-bottom: 20px;
+                }
+                .videoTour-h2 {
+                    font-size: 25px;
+                    color: #fff;
+                }
+            }
+            .watchVideo {
+                padding-top: 30px;
+                padding-left: 393px;
+            }
+        }
+        .statCardsWrapper {
+            margin-top: 107px;
+            display: flex;
+            justify-content: space-around;
+            .statCard {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                .card-p1 {
+                    font-size: 32px;
+                    font-weight: bold;
+                    padding-top: 20px;
+                    padding-bottom: 9px;
+                    color: $headerColor;
+                    font-family: $myLato;
+                }
+                .card-p2 {
+                    font-size: 16px;
+                    color: $textColor;
+                }
+            }
+        }
+        .splitLine {
+            max-width: 100%;
+            height: 2px;
+            background-color: #ebebeb;
+            margin-top: 68px;
+        }
+        .offer {
+            margin-top: 64px;
+            .tourOffer {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                .offerHeader {
+                    font-size: 15px;
+                    color: $textColor;
+                    padding-bottom: 14px;
+                }
+                .tourPackage {
+                    font-size: 25px;
+                    color: $headerColor;
+                    padding-bottom: 9px;
+                }
+            }
+            .offerCards {
+                display: flex;
+                justify-content: space-evenly;
+                margin-top: 67px;
+
+                .hotOffer {
+                    // position: relative;
+                    transform: scale(1.05);
+                    box-shadow: 3px 5px 15px 6px #888888;
+                    .badge1 {
+                        @include badge1;
+                    }
+                    .badge2 {
+                        @include badge2;
+                    }
+                    .offerCardText {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        .s4-p1 {
+                            font-size: 14px;
+                            margin-top: 17px;
+                            padding-bottom: 10px;
+                        }
+                        .s4-h2 {
+                            font-size: 19px;
+                            color: #4b54fa;
+                            font-weight: bold;
+                            padding-bottom: 5px;
+                        }
+                    }
+                }
+                .hotOffer:hover {
+                    transform: scale(1.05);
+                    transition: all 1s ease;
+                    cursor: pointer;
+                }
+            }
+        }
+        .sales {
+            background-image: url(/images/bg3.png);
+            background-size: 100%;
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+            background-position: center;
+            margin-top: 71px;
+            position: relative;
+
+            .travelSale {
+                margin-top: 70px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                .s5-h2 {
+                    padding-top: 70px;
+                    font-size: 34px;
+                    color: #fff;
+                }
+                .s5-p {
+                    font-size: 18px;
+                    color: #fff;
+                }
+            }
+            .subscription {
+                #email1 {
+                    max-width: 50%;
+
+                    border: 2px solid #ffffff;
+                    border-radius: 25px;
+                    font-size: 16px;
+                    padding: 17px 30px;
+                }
+                button[type="button"] {
+                    width: 155px;
+                    height: 50px;
+                    border: 2px solid #fff;
+                    border-radius: 25px;
+                    font-size: 16px;
+                    color: #08aeea;
+                    background-color: #fff;
+                    margin-left: 22px;
+                    cursor: pointer;
+                }
+            }
+        }
     }
 }

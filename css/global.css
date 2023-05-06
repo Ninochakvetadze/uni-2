@@ -233,4 +233,275 @@ a {
   color: #fff;
   padding-bottom: 209px;
   padding-left: 415px;
+}
+.container .sections .services {
+  margin-top: 74px;
+  padding-left: 97px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.container .sections .services .hotServices .discover {
+  padding-bottom: 12px;
+}
+.container .sections .services .hotServices .heading1 {
+  font-size: 25px;
+  color: #1a1a1b;
+}
+.container .sections .services .hotServices .hotServiceText {
+  padding-top: 40px;
+  font-size: 15px;
+  color: #8d8d8d;
+  max-width: 60%;
+}
+.container .sections .services .serviceCards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-left: 60px;
+}
+.container .sections .services .serviceCards .flightBooking,
+.container .sections .services .serviceCards .hotelBooking,
+.container .sections .services .serviceCards .tripPlanner,
+.container .sections .services .serviceCards .cruiseTour,
+.container .sections .services .serviceCards .fireCamp,
+.container .sections .services .serviceCards .corporateHolidays {
+  padding-right: 30px;
+  padding-bottom: 20px;
+}
+.container .sections .services .serviceCards .flightBooking .card-h2,
+.container .sections .services .serviceCards .hotelBooking .card-h2,
+.container .sections .services .serviceCards .tripPlanner .card-h2,
+.container .sections .services .serviceCards .cruiseTour .card-h2,
+.container .sections .services .serviceCards .fireCamp .card-h2,
+.container .sections .services .serviceCards .corporateHolidays .card-h2 {
+  font-size: 17px;
+  color: #1a1a1b;
+  padding-top: 20px;
+}
+.container .sections .services .serviceCards .flightBooking .card-p,
+.container .sections .services .serviceCards .hotelBooking .card-p,
+.container .sections .services .serviceCards .tripPlanner .card-p,
+.container .sections .services .serviceCards .cruiseTour .card-p,
+.container .sections .services .serviceCards .fireCamp .card-p,
+.container .sections .services .serviceCards .corporateHolidays .card-p {
+  font-size: 15px;
+  line-height: 20px;
+  color: #8d8d8d;
+  max-width: 270px;
+  padding-top: 8px;
+}
+.container .sections .videoTour {
+  background-image: url(/images/bg5.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: scroll;
+  margin-top: 50px;
+  height: 500px;
+}
+.container .sections .videoTour .videoTourDiscover {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.container .sections .videoTour .videoTourDiscover .videoTour-p {
+  margin-top: 65px;
+  font-size: 15px;
+  color: #fff;
+  padding-bottom: 20px;
+}
+.container .sections .videoTour .videoTourDiscover .videoTour-h2 {
+  font-size: 25px;
+  color: #fff;
+}
+.container .sections .videoTour .watchVideo {
+  padding-top: 30px;
+  padding-left: 393px;
+}
+.container .sections .statCardsWrapper {
+  margin-top: 107px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.container .sections .statCardsWrapper .statCard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.container .sections .statCardsWrapper .statCard .card-p1 {
+  font-size: 32px;
+  font-weight: bold;
+  padding-top: 20px;
+  padding-bottom: 9px;
+  color: #1a1a1b;
+  font-family: "Lato", sans-serif;
+}
+.container .sections .statCardsWrapper .statCard .card-p2 {
+  font-size: 16px;
+  color: #8d8d8d;
+}
+.container .sections .splitLine {
+  max-width: 100%;
+  height: 2px;
+  background-color: #ebebeb;
+  margin-top: 68px;
+}
+.container .sections .offer {
+  margin-top: 64px;
+}
+.container .sections .offer .tourOffer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.container .sections .offer .tourOffer .offerHeader {
+  font-size: 15px;
+  color: #8d8d8d;
+  padding-bottom: 14px;
+}
+.container .sections .offer .tourOffer .tourPackage {
+  font-size: 25px;
+  color: #1a1a1b;
+  padding-bottom: 9px;
+}
+.container .sections .offer .offerCards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-top: 67px;
+}
+.container .sections .offer .offerCards .hotOffer {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-box-shadow: 3px 5px 15px 6px #888888;
+          box-shadow: 3px 5px 15px 6px #888888;
+}
+.container .sections .offer .offerCards .hotOffer .badge1 {
+  position: absolute;
+  font-size: 14px;
+  width: 98px;
+  height: 25px;
+  background-color: #fed701;
+  margin-top: -235px;
+  margin-left: 10px;
+  padding: 6px 9px;
+}
+.container .sections .offer .offerCards .hotOffer .badge2 {
+  position: absolute;
+  font-size: 14px;
+  width: 67px;
+  height: 25px;
+  background-color: #fed701;
+  margin-top: -235px;
+  margin-left: 10px;
+  padding: 6px 9px;
+}
+.container .sections .offer .offerCards .hotOffer .offerCardText {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.container .sections .offer .offerCards .hotOffer .offerCardText .s4-p1 {
+  font-size: 14px;
+  margin-top: 17px;
+  padding-bottom: 10px;
+}
+.container .sections .offer .offerCards .hotOffer .offerCardText .s4-h2 {
+  font-size: 19px;
+  color: #4b54fa;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+.container .sections .offer .offerCards .hotOffer:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+  cursor: pointer;
+}
+.container .sections .sales {
+  background-image: url(/images/bg3.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center;
+  margin-top: 71px;
+  position: relative;
+}
+.container .sections .sales .travelSale {
+  margin-top: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.container .sections .sales .travelSale .s5-h2 {
+  padding-top: 70px;
+  font-size: 34px;
+  color: #fff;
+}
+.container .sections .sales .travelSale .s5-p {
+  font-size: 18px;
+  color: #fff;
+}
+.container .sections .sales .subscription #email1 {
+  max-width: 50%;
+  border: 2px solid #ffffff;
+  border-radius: 25px;
+  font-size: 16px;
+  padding: 17px 30px;
+}
+.container .sections .sales .subscription button[type=button] {
+  width: 155px;
+  height: 50px;
+  border: 2px solid #fff;
+  border-radius: 25px;
+  font-size: 16px;
+  color: #08aeea;
+  background-color: #fff;
+  margin-left: 22px;
+  cursor: pointer;
 }/*# sourceMappingURL=global.css.map */
