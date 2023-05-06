@@ -54,6 +54,10 @@
                 </nav>
             </header>
 
+            <button onclick="topFunction()" id="myBtn" title="Go to top">
+                Go to top
+            </button>
+
             <div class="sections">
                 <div class="homePage">
                     <div class="homePageWrapper">
@@ -448,5 +452,28 @@
             src="https://kit.fontawesome.com/4fb1e1c9df.js"
             crossorigin="anonymous"
         ></script>
+        <script>
+            let mybutton = document.getElementById("myBtn");
+
+            window.onscroll = function () {
+                scrollFunction();
+            };
+
+            function scrollFunction() {
+                if (
+                    document.body.scrollTop > 300 ||
+                    document.documentElement.scrollTop > 300
+                ) {
+                    mybutton.style.display = "block";
+                } else {
+                    mybutton.style.display = "none";
+                }
+            }
+
+            function topFunction() {
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+            }
+        </script>
     </body>
 </html>
