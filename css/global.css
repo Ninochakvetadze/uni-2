@@ -181,7 +181,7 @@ a {
   width: 100%;
 }
 .container .sections .homePage .homePageWrapper {
-  background-image: url("../images/bg.png");
+  background-image: url(../images/bg.png);
   background-size: 100%;
   background-repeat: no-repeat;
   background-attachment: scroll;
