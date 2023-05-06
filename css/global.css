@@ -181,7 +181,7 @@ a {
   width: 100%;
 }
 .container .sections .homePage .homePageWrapper {
-  background-image: url("/images/bg.png");
+  background-image: url("../images/bg.png");
   background-size: 100%;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -294,7 +294,7 @@ a {
   padding-top: 8px;
 }
 .container .sections .videoTour {
-  background-image: url(/images/bg5.png);
+  background-image: url(../images/bg5.png);
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
@@ -457,7 +457,7 @@ a {
   cursor: pointer;
 }
 .container .sections .sales {
-  background-image: url(/images/bg3.png);
+  background-image: url(../images/bg3.png);
   background-size: 100%;
   background-repeat: no-repeat;
   background-attachment: scroll;
