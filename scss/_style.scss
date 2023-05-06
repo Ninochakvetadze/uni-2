@@ -44,8 +44,8 @@
                     margin: 0 auto;
                     position: relative;
                     padding: 115px 580px;
-                    #grad1 {
-                    }
+                    // #grad1 {
+                    // }
                     .priceDiv1 {
                         position: absolute;
                         margin-top: -60px;
@@ -89,8 +89,8 @@
             }
         }
         .services {
-            margin-top: 74px;
             padding-left: 97px;
+            margin-top: 74px;
             display: flex;
 
             .hotServices {
@@ -262,14 +262,19 @@
                     color: #fff;
                 }
                 .s5-p {
+                    padding-top: 19px;
                     font-size: 18px;
                     color: #fff;
                 }
             }
             .subscription {
-                #email1 {
-                    max-width: 50%;
+                padding-top: 60px;
+                padding-bottom: 82px;
+                padding-left: 394px;
+                display: flex;
 
+                #email1 {
+                    width: 395px;
                     border: 2px solid #ffffff;
                     border-radius: 25px;
                     font-size: 16px;
@@ -277,7 +282,6 @@
                 }
                 button[type="button"] {
                     width: 155px;
-                    height: 50px;
                     border: 2px solid #fff;
                     border-radius: 25px;
                     font-size: 16px;
@@ -287,6 +291,213 @@
                     cursor: pointer;
                 }
             }
+        }
+        .travelers {
+            .travelersInfo {
+                margin-top: 80px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                .s6-header {
+                    font-size: 15px;
+                    padding-bottom: 12px;
+                }
+                .s6-h2 {
+                    font-size: 25px;
+                    padding-bottom: 9px;
+                }
+            }
+            .travelerCards {
+                margin-top: 82px;
+                display: flex;
+                justify-content: space-evenly;
+                padding-right: 98px;
+                padding-left: 96px;
+
+                .ribecaSingh,
+                .jimmyDean,
+                .theoduleTerer {
+                    padding-top: 54px;
+                    max-width: 30%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: space-evenly;
+                    background-color: #f4f4f4;
+                    .aboutTravelers {
+                        padding-top: 16px;
+                        padding-bottom: 36px;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        text-align: center;
+                        .travelerName {
+                            color: #4b54fa;
+                        }
+                        .travelerText {
+                            padding-top: 36px;
+                            padding-right: 35px;
+
+                            padding-bottom: 90px;
+                            padding-left: 36px;
+                            color: #1a1a1b;
+                            line-height: 21px;
+                        }
+                    }
+                }
+            }
+        }
+        .planTrip {
+            background-image: url(../images/bg4.png);
+            background-size: 100%;
+            background-repeat: no-repeat;
+            background-position: fill;
+            background-attachment: scroll;
+
+            .planTrip1 {
+                padding-bottom: 50px;
+                padding-top: 250px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                .s7-p {
+                    font-size: 36px;
+                    color: #fff;
+                    padding-bottom: 48px;
+                }
+                button[type="submit"] {
+                    width: 170px;
+                    height: 50px;
+
+                    border-radius: 25px;
+                    color: #fff;
+                    border: none;
+                    background-image: linear-gradient(#08aeea, #2af598);
+                    cursor: pointer;
+                }
+            }
+        }
+        .popularCountries {
+            margin-top: 70px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .tourismCountries {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                .s8-p1 {
+                    font-size: 13px;
+                    color: $textColor;
+                    margin-bottom: 14px;
+                }
+                .s8-h2 {
+                    font-size: 25px;
+                    color: $headerColor;
+                    padding-bottom: 9px;
+                }
+            }
+            .countriesCards {
+                display: flex;
+                margin-top: 70px;
+                .popularDestination {
+                    position: relative;
+                    transition-duration: 1s;
+                    .tourSpecs {
+                        position: absolute;
+                        margin-top: -90px;
+                        margin-left: 50px;
+                        color: white;
+
+                        .country {
+                            padding-bottom: 9px;
+                        }
+                        // .price {
+                        // }
+                        .s8-arrow {
+                            margin-top: -40px;
+                            margin-left: 200px;
+                            width: 40px;
+                            height: 40px;
+                            border-radius: 50%;
+                            padding: 12px;
+                            background-image: linear-gradient(
+                                #08aeea 0%,
+                                #2af598 100%
+                            );
+                        }
+                    }
+                }
+            }
+        }
+    }
+    footer {
+        background-color: black;
+
+        .footerWrapper {
+            display: flex;
+            justify-content: space-evenly;
+            font-family: $myRoboto;
+            padding-top: 53px;
+            .footerColumn {
+                .quickLinks,
+                .support,
+                .address {
+                    font-size: 25px;
+                    color: #fff;
+                    padding-bottom: 20px;
+                }
+                .footer-ul {
+                    display: flex;
+                    flex-direction: column;
+                    font-family: $myRoboto;
+                    justify-content: space-around;
+
+                    .footer-li {
+                        color: $textColor;
+                        font-family: $myRoboto;
+                        padding-bottom: 15px;
+                    }
+                }
+            }
+            .footerColumn1 {
+                .footerSubscription {
+                    color: white;
+                    font-family: $myRoboto;
+                    padding-bottom: 15px;
+                }
+                .footerInput {
+                    width: 343px;
+                    height: 48px;
+                    display: flex;
+                    justify-content: space-between;
+                    background-color: #fff;
+                    #footerInput1 {
+                        border: none;
+                        padding: 15px 20px;
+                    }
+                }
+                .footerSearch {
+                    width: 48px;
+                    height: 48px;
+                    background-image: linear-gradient(#08aeea 0%, #2af598 100%);
+                    padding: 15px;
+                    font-size: 20px;
+                }
+            }
+        }
+        .footerLine {
+            width: 100%;
+            height: 3px;
+            color: $textColor;
+        }
+        .rights {
+            padding-top: 35px;
+            padding-bottom: 25px;
+            font-size: 19px;
+            color: #8d8d8d;
+            margin-left: 538px;
         }
     }
 }
