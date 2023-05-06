@@ -175,6 +175,7 @@
         .statCardsWrapper {
             margin-top: 107px;
             display: flex;
+            flex-wrap: wrap;
             justify-content: space-around;
             .statCard {
                 display: flex;
@@ -219,6 +220,7 @@
             }
             .offerCards {
                 display: flex;
+                flex-wrap: wrap;
                 justify-content: space-evenly;
                 margin-top: 67px;
 
@@ -397,6 +399,7 @@
             align-items: center;
             .tourismCountries {
                 display: flex;
+                flex-wrap: wrap;
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
