@@ -15,6 +15,7 @@
         nav {
             .header-ul {
                 display: flex;
+
                 .header-li {
                     padding: 30px 45px;
                     font-size: 15px;
@@ -209,9 +210,9 @@
                 margin-top: 67px;
 
                 .hotOffer {
-                    // position: relative;
-                    transform: scale(1.05);
+                    transition: all 1s ease;
                     box-shadow: 3px 5px 15px 6px #888888;
+
                     .badge1 {
                         @include badge1;
                     }
@@ -234,11 +235,11 @@
                             padding-bottom: 5px;
                         }
                     }
-                }
-                .hotOffer:hover {
-                    transform: scale(1.05);
-                    transition: all 1s ease;
-                    cursor: pointer;
+                    &:hover {
+                        transform: scale(1.05);
+                        transition: all 1s ease;
+                        cursor: pointer;
+                    }
                 }
             }
         }
@@ -249,7 +250,6 @@
             background-attachment: scroll;
             background-position: center;
             margin-top: 71px;
-            position: relative;
 
             .travelSale {
                 margin-top: 70px;
@@ -387,6 +387,7 @@
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
+
                 .s8-p1 {
                     font-size: 13px;
                     color: $textColor;
@@ -402,8 +403,13 @@
                 display: flex;
                 margin-top: 70px;
                 .popularDestination {
-                    position: relative;
+                    // position: relative;
                     transition-duration: 1s;
+                    &:hover {
+                        transform: scale(1.05);
+                        transition: all 1s ease;
+                        cursor: pointer;
+                    }
                     .tourSpecs {
                         position: absolute;
                         margin-top: -90px;
