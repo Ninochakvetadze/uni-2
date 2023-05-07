@@ -20,6 +20,14 @@ function topFunction() {
     document.documentElement.scrollTop = 0;
 }
 
+// Video
+
+const myVideo = document.getElementById("video");
+function playVideo() {
+    if (myVideo.paused) myVideo.play();
+    else myVideo.pause();
+}
+
 // BurgerMenu
 
 // const burgerMenu = document.querySelector("#burger-menu");
